@@ -28,6 +28,11 @@
         <members>*</members>
         <name>LightningComponentBundle</name>
     </types>
+	<types>
+		<members>Case</members>
+		<members>Lead</members>
+		<name>CustomObject</name>
+	</types>
     <types>
         <members>*</members>
         <name>StaticResource</name>

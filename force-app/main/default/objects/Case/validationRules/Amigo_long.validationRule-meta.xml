@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amigo_long</fullName>
+    <active>true</active>
+    <description>Amigo should be long</description>
+    <errorConditionFormula>LEN( Amigo__c ) &lt; 5</errorConditionFormula>
+    <errorMessage>Amigo should be at least 5 characters long!</errorMessage>
+</ValidationRule>
