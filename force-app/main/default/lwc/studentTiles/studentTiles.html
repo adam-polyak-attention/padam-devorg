@@ -1,0 +1,15 @@
+<!--
+ - Created by apolyak on 2019. 10. 31..
+ -->
+
+<!-- Student Tiles -->
+<template>
+    <lightning-layout horizontal-align="center" multiple-rows="true">
+        <template for:each={studentList} for:item="student">
+            <lightning-layout-item padding="around-small" size="6" small-device-size="6" medium-device-size="4"
+                                   large-device-size="3" key={student.Name}>
+                <c-student-tile selected-student-id={selectedStudentId} onstudentselected={studentSelected} student={student}></c-student-tile>
+            </lightning-layout-item>
+        </template>
+    </lightning-layout>
+</template>

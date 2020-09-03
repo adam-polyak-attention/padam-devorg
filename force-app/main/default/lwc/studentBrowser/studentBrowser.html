@@ -1,0 +1,13 @@
+<!--
+ - Created by apolyak on 2019. 10. 31..
+ -->
+
+<!-- Student Browser -->
+<template>
+    <c-student-browser-form onselected={deliverySelected}></c-student-browser-form>
+    <lightning-tabset variant="scoped">
+        <lightning-tab label="Gallery">
+            <c-student-tiles student-list={Students.data} onstudentselected={handleNotify}></c-student-tiles>
+        </lightning-tab>
+    </lightning-tabset>
+</template>
