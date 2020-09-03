@@ -3,6 +3,6 @@
     <fullName>Amigo_long</fullName>
     <active>true</active>
     <description>Amigo should be long</description>
-    <errorConditionFormula>LEN( Amigo__c ) &lt; 5</errorConditionFormula>
-    <errorMessage>Amigo should be at least 5 characters long!</errorMessage>
+    <errorConditionFormula>LEN( Amigo__c ) &lt; 8</errorConditionFormula>
+    <errorMessage>Amigo should be at least 8 characters long!</errorMessage>
 </ValidationRule>
